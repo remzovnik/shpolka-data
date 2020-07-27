@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "book_pages",
+  "info": {
+    "name": "booksPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

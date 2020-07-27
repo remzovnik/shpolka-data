@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "authors_pages",
+  "info": {
+    "name": "AuthorsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

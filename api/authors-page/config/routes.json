@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/authors-page",
+      "handler": "authors-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/authors-page",
+      "handler": "authors-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/authors-page",
+      "handler": "authors-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
